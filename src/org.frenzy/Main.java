@@ -1,4 +1,4 @@
-package org.exchange.frenzy;
+package org.frenzy;
 
 
 public class Main {

@@ -1,3 +1,5 @@
+package org.frenzy;
+
 /**
  * Created by artem.grechishnikov on 02.06.2015.
  */
