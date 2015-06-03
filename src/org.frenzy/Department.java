@@ -9,35 +9,45 @@ public abstract class Department {
     private int quantityOfTasksInProcess; // Measured in man-hour
     private int quantityOfUnits;
 
-    protected void setHappiness (boolean isDepartmentHappy) {
+    public void setHappiness (boolean isDepartmentHappy) {
+
         isHappy = isDepartmentHappy;
     }
 
-    protected boolean getHappiness () {
+    public boolean getHappiness () {
+
         return isHappy;
     }
 
-    protected void setBusyness (boolean isDepartmentFree) {
+    public void setBusyness (boolean isDepartmentFree) {
+
         isFree = isDepartmentFree;
     }
 
-    protected boolean getBusyness () {
+    public boolean getBusyness () {
+
         return isFree;
     }
 
-    protected void setTasksInProcess (int quantityOfTasks) {
+    public void setTasksInProcess (int quantityOfTasks) {
+
         quantityOfTasksInProcess = quantityOfTasks;
     }
 
-    protected int getTasksInProcess () {
+    public int getTasksInProcess () {
+
         return quantityOfTasksInProcess;
     }
 
-    protected void setUnits (int quantity) {
+    public void setUnits (int quantity) {
+
         quantityOfUnits = quantity;
     }
 
-    protected int getUnits () {
+    public int getUnits () {
+
         return quantityOfUnits;
     }
+
+    private abstract int countDaysToFinish ();
 }
