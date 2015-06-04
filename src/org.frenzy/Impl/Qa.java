@@ -9,7 +9,7 @@ import org.frenzy.Department;
 public class Qa extends Department {
 
     @Override
-    private int countDaysToFinish () {
+    public int countDaysToFinish () {
         int days = quantityOfTasksInProcess/quantityOfUnits;
         return days;
     }

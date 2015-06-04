@@ -11,7 +11,7 @@ public class Main {
         System.out.println("TEST RUN");
         Scanner scan = new Scanner(System.in);
         String input = null;
-        int volume = null;
+        int volume;
 
         Helper.createObjects();
         Helper.initialisation();
@@ -35,7 +35,7 @@ public class Main {
                 break;
         }
 
-        
+
     }
 
 }

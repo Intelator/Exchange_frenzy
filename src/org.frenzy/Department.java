@@ -4,10 +4,10 @@ package org.frenzy;
  * Created by artem.grechishnikov on 02.06.2015.
  */
 public abstract class Department {
-    private boolean isHappy;
-    private boolean isFree;
-    private int quantityOfTasksInProcess; // Measured in man-hour
-    private int quantityOfUnits;
+    protected boolean isHappy;
+    protected boolean isFree;
+    protected int quantityOfTasksInProcess; // Measured in man-hour
+    protected int quantityOfUnits;
 
     public void setHappiness (boolean isDepartmentHappy) {
 
@@ -49,5 +49,5 @@ public abstract class Department {
         return quantityOfUnits;
     }
 
-    private abstract int countDaysToFinish ();
+    public abstract int countDaysToFinish ();
 }

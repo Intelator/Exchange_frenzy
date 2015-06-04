@@ -9,7 +9,7 @@ import org.frenzy.Department;
 public class Analytics extends Department {
 
     @Override
-    private int countDaysToFinish () {
+    public int countDaysToFinish () {
         int days = (quantityOfTasksInProcess/quantityOfUnits)/4;
         return days;
     }
