@@ -7,6 +7,13 @@ import org.frenzy.*;
  * Created by artem.grechishnikov on 03.06.2015.
  */
 public class Helper {
+    public static void createobjects () {
+        Department business = new Business();
+        Department analytics = new Analytics();
+        Department dev = new Dev();
+        Department qa = new Qa();
+    }
+
     public static void initialisation () {
         Scanner scanner = new Scanner(System.in);
         String input = null;
